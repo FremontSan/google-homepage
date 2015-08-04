@@ -149,3 +149,22 @@ input[type="submit"]:hover {
 input[type="submit"]:focus {
 	padding: 2px;
 }
+
+button {
+	width: 10em;
+	height: 2.5em;
+	border: 1px solid #d3d3d3;
+	background-color: #f1f1f1;
+	font-size: 11px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #3f3f3f;
+}
+
+button:hover {
+	border: 1px solid #a8a8a8;
+}
+
+button:focus {
+	padding: 2px;
+}
