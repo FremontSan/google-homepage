@@ -1,20 +1,26 @@
-body{
-  overflow-x:hidden;
-}
-
 .main {
 	width: 100%;
 	text-align: center;
 	padding: 185px 11px 0px 0px;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 nav ul {
 	margin: 0px;
 	padding: 0px;
-  list-style-type: none;
-  vertical-align: middle;
+    list-style-type: none;
+    vertical-align: middle;
 }
 
+li {
+	display: inline;
+	padding: 10px;
+}
+
+/*top nav bar */
 nav#top {
 	float: right;
 	height: 40px;
@@ -61,6 +67,8 @@ nav#top img#beemo{
 	text-decoration: none;
 }
 
+
+/*bottom nav bar*/
 nav#bottom {
 	height: 25px;
 	margin-left: -10px;
@@ -74,27 +82,9 @@ nav#bottom {
 	padding: 1em 1em 0.2em 1em;
 }
 
-
 nav#bottom a {
 	color: #696969;
 	position: relative;
-  }
-
-a {
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-li{
-  display:inline;
-}
-
-a {
-    display: inline;
-    width: 60px;
 }
 
 span#left {
@@ -105,10 +95,21 @@ span#right {
 	float: right;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 .icon img {
 	height: 6em;
 	width: 17em;
 }
+
+
+/* input */
 
 input[type="text"] {
 	background-image: url(http://i.gyazo.com/cd5453d8d107fa55fda8b273138d6db0.png);
